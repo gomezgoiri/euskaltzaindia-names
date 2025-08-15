@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "search": "deno --allow-env --allow-read search.ts"
+    "scrap": "deno --allow-env --allow-net --allow-write scrap.ts"
+  },
+  "imports": {
+    "@panha/scrape": "jsr:@panha/scrape@^2.1.2"
+  },
+  "fmt": {
+    "semiColons": false
+  }
+}
